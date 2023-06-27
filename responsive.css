@@ -1,0 +1,146 @@
+
+
+
+@media only screen and (max-width:1100px) {
+    .header #menu-btn {
+        display: inline-block;
+    }
+
+    section{
+        padding: 3rem 2rem;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        background: white;
+        z-index: 100000;
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        left: -100%;
+        transition: 0.3s;
+    }
+
+    .active {
+        left: 0%;
+    }
+
+    a {
+        margin: 1rem 0;
+        font-size: 3.2rem;
+    }
+
+    #nav-close {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+    }
+
+    .home .box{
+        justify-content: center;
+    }
+
+    .category .box-container{
+        grid-template-columns: auto auto;
+    }
+
+    .category .box-container img{
+        width: 100%;
+        height: 50%;
+    }
+
+    .shop .slide .images {
+        position: relative;
+        overflow: hidden;
+        padding-right: 0%;
+        padding-bottom: 1rem;
+    }
+
+    .service .box-container {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 22px;
+    }
+
+    .footer .box-container a{
+        display: block;
+        font-size: 16px;
+        width: 155px;
+    }
+
+    .footer .box-container h3{
+        font-size: 1rem;
+    }
+
+    .footer .box-container #ql, .footer .box-container #ol{
+        display: none;
+    }
+
+}
+
+
+
+@media only screen and (max-width:500px) {
+    .header {
+        padding: 2% 5%;
+    }
+
+    .header .logo {
+        font-size: 2rem;
+        margin-right: 3.8rem;
+        margin-left: .7rem;
+    }
+
+    .icons div,
+    .icons a,
+    .icons {
+        margin: 3px;
+        padding: 0;
+        font-size: 2rem;
+    }
+
+    .content span {
+        font-size: 1.5rem;
+        color: white;
+    }
+    
+    .content h3 {
+        font-size: 2.5rem;
+        color: #219150;
+        padding-top: .5rem;
+        text-transform: uppercase;
+    }
+    
+    .content p {
+        line-height: 2;
+        font-size: .8rem;
+        padding: 1rem 0;
+        color: white;
+    }
+
+    .content{
+        width: 88%;
+    }
+
+    .category .box-container{
+        grid-template-columns: auto;
+    }
+
+    .service .box-container {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 22px;
+    }
+
+    .footer .box-container .boxp{
+        margin-right: 38px;
+    }
+}
